@@ -9,7 +9,7 @@ body {
   }
   
   p {
-    color: #8f8f8f;
+    color: #1d2124;
   }
   
   /* Headings */
@@ -37,6 +37,8 @@ body {
     background-color: #3a1a42;
     color: #fff;
   }
+
+  
   
   .white-section {
     background-color: #fff;
@@ -106,13 +108,14 @@ body {
   /* form */
 
   .form-control{
-      width: 50%;
+      
       margin: auto;
   }
 
   #estimate{
     padding-top: 30px;
   }
+
   
   /* Footer Section */
   
