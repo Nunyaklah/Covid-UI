@@ -20,10 +20,6 @@ body {
     line-height: 1.5;
   }
   
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
   
   /* Containers */
   
@@ -65,11 +61,7 @@ body {
     font-family: "Montserrat-Light";
   }
   
-  /* Buttons */
   
-  .download-button {
-    margin: 5% 3% 5% 0;
-  }
   
   /* Title Section */
   
@@ -93,9 +85,7 @@ body {
   
   /* Features Section */
   
-  #features {
-    position: relative;
-  }
+ 
   
   .feature-title {
     font-size: 1.5rem;
