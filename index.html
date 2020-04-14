@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
      <!-- Font Awesome -->
-     <link rel="preconnect" href="https://nunyaklah.github.io/Covid-UI/">
+     <link rel="preload" href="https://nunyaklah.github.io/Covid-UI/">
     <script src="https://kit.fontawesome.com/5aaca994db.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Covid Estimator</title>
@@ -60,7 +60,7 @@
             </div>
     
             <div class="col-lg-6">
-              <img class="title-image" src="images/covid19.png" alt="Covid 19 image">
+              <img class="title-image" src="images/covid19.png" alt="Covid 19 image" class="lazyload">
             </div>
     
           </div>
@@ -214,6 +214,9 @@
         <p>© Copyright 2020 Nunya Klah</p>
       </div>
     </footer>
+
+    <script src="lazysizes.min.js" async></script>
+    <!-- Images End -->
 
 
     
